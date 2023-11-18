@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ZIP_FILE="GoogleNews-vectors-negative300.bin.zip"
-EXTRACTED_FILE="GoogleNews-vectors-negative300.bin"
+EXTRACTED_FILE="./GoogleNews-vectors-negative300.bin/GoogleNews-vectors-negative300.bin"
 
 if [ ! -f "$EXTRACTED_FILE" ]; then
     echo "[+] Arquivo $EXTRACTED_FILE não encontrado. Descomprimindo o arquivo..."
