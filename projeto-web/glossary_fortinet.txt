@@ -1,0 +1,450 @@
+account hijacking
+accumulo
+acoustic cryptanalysis
+active cyber defense
+advanced encryption standard
+aes
+advanced evasion technique
+aet
+advanced persistent threat
+apt
+advanced technology attachment
+ata
+adware
+alert fatigue
+algorithm
+anagram
+android
+angler phishing
+anomaly detection
+anonymizer
+anti-malware
+application
+apt side hustle
+astroturf
+asymmetric encryption
+atm skimming
+attack surface
+attack traffic
+backdoor
+baiting
+baselining
+bashmob
+behavior analysis
+benign
+big data
+biometrics
+bios
+bit
+black-box testing
+black hat
+black swan event
+blacklist
+bluekeep
+bombe
+bot
+botnet
+bring your own device
+byod
+bring your own encryption
+byoe
+browser
+brute-force attack
+buffer
+buffer overflow
+business email compromise
+bec
+byte
+catfisher
+ceo fraud
+certificate authority
+ca
+certified information systems security professional
+cissp
+certified signing request
+chief information security officer
+ciso
+clandestine
+clickbait
+clickjacking
+clone phishing
+cloud computing
+cloud encryption
+cloud intelligence
+cloud-native
+cloudtrust protocol
+cluster
+cold boot attack
+commercial-off-the-shelf
+cots
+computer forensics
+computer network attack
+cna
+computer network defense
+cnd
+computer network exploitation
+cne
+computer network operations
+cno
+content filtering
+copy-paste compromise
+covert
+covert response
+credential stealing
+credential stuffing
+creepware
+crimeware
+cross-site request forgery
+cross-site scripting
+xss
+crowdsourcing
+cryptographic key
+cryptography
+cyber privateering
+cyber riot
+cyber vandalism
+cyber vigilantism
+daemon
+dark patterns
+dark web
+darknet
+data breach
+data compromise
+data exfiltration
+data leak
+data loss prevention
+dlp
+data remanence
+data segregation
+data at rest
+data in motion
+data in use
+decryption
+deep packet inspection
+dpi
+deep web
+deepfake
+denial-of-service
+dos attack
+dictionary attack
+differential fault analysis attack
+digital certificate
+directory traversal attack
+distributed denial-of-service attack
+ddos
+distributed reflection denial-of-service attack
+drdos
+dns amplification
+dns cache poisoning
+dns hijacking
+dns redirection
+domain fluxing
+domain name system
+dns
+domain spoofing
+domain-based message authentication, reporting and conformance
+dmarc
+domain-generation algorithm
+dga
+dox
+doxing
+drive
+drive-by download
+driver
+dumpster diving
+dwell time
+dynamic analysis
+electromagnetic attack
+electronic intelligence
+elint
+email hijacking
+encoding
+encryption
+encryption-as-a-service
+eaas
+endpoint
+endpoint detection and response
+edr
+endpoint security management
+erasure coding
+ethical hackers
+evil maid attack
+evil twin
+expert system
+exploit
+exploit kit
+fabric of security
+failover
+false flag
+file
+fileless malware
+firewall
+firmware
+forensics
+free and open-source software
+foss
+fullz
+fuzzing
+general data protection regulation
+gdpr
+gigabyte
+gb
+google dorking
+government-off-the-shelf
+gots
+government surveillance
+gray-box testing
+grey hat
+greyware
+gummy bear hack
+hacker
+hacking
+hacktivist
+hadoop
+hard drive
+hardware against software piracy
+hasp
+hashing
+heuristic
+homographic attack
+human intelligence
+humint
+identity management
+identity theft
+imagery intelligence
+imint
+incident response
+industrial control system
+ics
+inference attack
+inline network device
+integrated development environment
+ide
+integrated drive electronics
+ide
+intelligence
+internationalized domain name
+idn homograph attack
+internet of things
+iot
+intrusion detection system
+ids
+iphone operating system
+ios
+iot botnet
+jailbreak
+junk hack
+keylogger
+keylogging
+kilobyte
+kb
+kinetic
+key reinstallation attack
+krack
+lateral movement
+least privilege access
+linux
+lulz
+macos
+machine learning
+madware
+malicious
+maltweet
+malvertising
+malware
+man trap
+man-in-the-middle
+mitm attack
+measurement and signature intelligence
+masint
+megabyte
+mb
+metasploit framework
+money, ideology, compromise, and ego
+mice
+micro virtual machine
+micro vm
+mitigation
+monte carlo simulation
+multi-factor authentication
+mfa
+network detection and response
+ndr
+network telescope
+network time protocol
+ntp
+network time protocol
+ntp attack
+next-generation firewall
+ngfw
+nmap
+obfuscation
+octave
+open-source
+open-source intelligence
+osint
+operating system
+os
+operational technology
+ot
+packet
+pass-the-hash
+payload
+payment card industry data security standard
+pci dss
+penetration testing
+peripheral
+personal security product
+psp
+personally identifiable information
+pii
+pharming
+phish-prone percentage
+phishbait
+phishing
+phreaking
+port mirroring
+post-compromise
+power-analysis attack
+pretexting
+privilege creep
+privilege escalation attack
+privilege management
+protected health information
+pseudorandomized data
+public key cryptography
+public key infrastructure
+pki
+pwn
+python
+quick response
+qr code phishing
+quality of service
+qos
+rainbow table
+ram scraping
+random access memory
+ram
+ransomware
+remote access trojan
+rat
+response
+reverse engineering
+reverse proxy
+risk
+rivest, shamir, adleman algorithm
+rsa
+rogue access point
+rootkit
+salt
+sandbox
+scareware
+scraping
+script kiddie
+search engine optimization
+seo poisoning
+secure sockets layer
+ssl
+security awareness training
+security information and event management
+siem
+security operation center
+soc
+security orchestration, automation, and response
+soar
+serial advanced technology attachment
+sata
+sextortion
+shadow it
+sharking
+shellcode
+shoulder surfing
+side-channel attack
+signals intelligence
+sigint
+signature
+signature-based detection
+sim swap
+simulated phishing
+sinkhole
+situational intelligence
+smishing
+sneakernet
+sniffer
+snort
+soc visibility triad
+social engineering
+sockpuppet
+spam
+spear phishing
+splunk
+spoofing
+spyware
+sql injection
+sql poisoning attack
+ssl checker
+steganography
+structured query language
+sql
+supervisory control and data acquisition
+scada
+supply chain attack
+syn flooding
+syn scanning
+tabnabbing
+tactics, techniques, and procedures
+ttp
+tailgating
+taint analysis
+telephony denial-of-service
+tdos
+threat
+threat intelligence
+thumb drive
+timing attack
+transport layer security
+tls
+trojan horse virus
+trojanize
+tweet
+twenty controls
+two-factor authentication
+2fa
+typosquatting
+unified extensible firmware interface
+uefi
+universal serial bus
+usb
+unix
+url obfuscation
+use of a qr code
+user experience
+ux
+user interface
+ui
+virtual appliance
+virtual machine
+vm
+virtual private network
+vpn
+virtualization
+virus
+virus scan
+vishing
+vulnerability
+wardriving
+watering hole attack
+weaponize
+whaling attack
+white-box testing
+white hat
+whitelist
+wikileaks
+wild, the
+windows
+wizard
+worm
+zero day
+zero trust
+zero-day attack
+zero-day malware
