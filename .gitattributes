@@ -1,1 +1,0 @@
-projeto-web/GoogleNews-vectors-negative300.bin.zip filter=lfs diff=lfs merge=lfs -text
