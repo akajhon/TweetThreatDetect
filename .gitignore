@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 projeto-web/GoogleNews-vectors-negative300.bin/
+models/
