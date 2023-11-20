@@ -1,0 +1,17 @@
+[server]
+
+headless = true
+
+runOnSave = true
+
+enableWebsocketCompression = false
+
+enableCORS = false
+
+enableXsrfProtection = false
+
+[theme]
+
+base = "light"
+
+primaryColor="#226fbd"

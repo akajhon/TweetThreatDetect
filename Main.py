@@ -35,7 +35,7 @@ selected = option_menu(
 
 if selected == "Threat Analysis":
     st.title("Threat Analysis")
-
+    st.write(" ")
     input_text = st.text_input("Digite uma frase:")
     st.markdown("""
         <style>
@@ -181,7 +181,7 @@ if selected == "Threat Analysis":
 
 if selected == "Database Analysis":
     st.title("Database Analysis")
-    
+    st.write(" ")
     st.markdown(
     """
     <style>
