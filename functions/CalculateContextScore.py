@@ -1,8 +1,8 @@
 import numpy as np
 from gensim.models import KeyedVectors
 
-model = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin/GoogleNews-vectors-negative300.bin', binary=True)
-with open('glossary_fortinet.txt', 'r') as f:
+model = KeyedVectors.load_word2vec_format('./models/GoogleNews-vectors-negative300.bin', binary=True)
+with open('./resources/glossary_fortinet.txt', 'r') as f:
     cybersecurity_words = [line.strip() for line in f.readlines()]
 
 def cybersecurity_context(text):

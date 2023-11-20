@@ -1,22 +1,23 @@
 import pandas as pd
-from CalculateContextScore import cybersecurity_context, normalize_value, text_to_vector
-from CalculateEntityScore import entity_in_text
-from LoadModel import predizerSentimento
+from functions.CalculateContextScore import cybersecurity_context, normalize_value, text_to_vector
+from functions.CalculateEntityScore import entity_in_text
+from functions.LoadModel import predizerSentimento
 import numpy as np
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from tqdm import tqdm
 import pickle
+
 # =====================================================================================
 # ============================= RANDOM FOREST + WORD2VEC ==============================
 # =====================================================================================
 
-with open('glossary_fortinet.txt', 'r') as f:
+with open('./resources/glossary_fortinet.txt', 'r') as f:
     cybersecurity_words = [line.strip() for line in f.readlines()]
 
 def loadRandomForestModel(input):
-    with open('./Random-Forest/random_forest_model.pkl', 'rb') as model_file:
+    with open('./models/random_forest_model.pkl', 'rb') as model_file:
         loaded_rf_model = pickle.load(model_file)
 
     y_pred = loaded_rf_model.predict(input)
@@ -28,7 +29,7 @@ def loadRandomForestModel(input):
 
 def loadSvmModel(input):
     vector = text_to_vector(input)
-    with open('./Svm/svm_model.pkl', 'rb') as model_file:
+    with open('./models/svm_model.pkl', 'rb') as model_file:
         loaded_svm_model = pickle.load(model_file)
         
     pred_range = loaded_svm_model.predict_proba([vector])
@@ -55,5 +56,3 @@ def extrairDados(input):
     prob_threat, prob_percent = loadRandomForestModel(all_vectors)
 
     return sentiment, recognized_entities, average_prediction, positive_probability, negative_probability, percent_similarity, prob_threat, prob_percent
-
-extrairDados("i hate English")

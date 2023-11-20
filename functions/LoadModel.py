@@ -21,7 +21,7 @@ sequencePattern   = r"(.)\1\1+"
 seqReplacePattern = r"\1\1"
 
 def predizerSentimento(input):
-    with open('./Sentiment-BiLSTM/Tokenizer.pickle', 'rb') as file:
+    with open('./models/Sentiment-BiLSTM/Tokenizer.pickle', 'rb') as file:
         tokenizer = pickle.load(file)
         
     words = word_tokenize(input)
@@ -31,7 +31,7 @@ def predizerSentimento(input):
     sequences = tokenizer.texts_to_sequences([' '.join(lemmatized_words)])
     sequences = pad_sequences(sequences, maxlen=60)
     
-    model = tf.keras.models.load_model('./Sentiment-BiLSTM')
+    model = tf.keras.models.load_model('./models/Sentiment-BiLSTM')
         
     predictions = model.predict(sequences)
     sentiment_labels , prediction = [], []

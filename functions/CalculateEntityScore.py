@@ -1,6 +1,5 @@
 import spacy
 
-
 nlp = spacy.load('en_core_web_sm')
 
 def entity_in_text(text):
