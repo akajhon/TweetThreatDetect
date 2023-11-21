@@ -21,6 +21,9 @@ rm -rf ./GoogleNews-vectors-negative300.zip
 echo "[+] Instalando Dependências..."
 pip install -r requirements.txt
 
+echo "[+] Baixando o pacote punkt..."
+python3 -m nltk.downloader punkt
+
 echo "[+] Baixando o pacote en_core_web_sm..."
 python3 -m spacy download en_core_web_sm
 
