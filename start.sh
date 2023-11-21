@@ -24,6 +24,12 @@ pip install -r requirements.txt
 echo "[+] Baixando o pacote punkt..."
 python3 -m nltk.downloader punkt
 
+echo "[+] Baixando o pacote wordnet..."
+python3 -m nltk.downloader wordnet
+
+echo "[+] Baixando o pacote stopwords..."
+python3 -m nltk.downloader stopwords
+
 echo "[+] Baixando o pacote en_core_web_sm..."
 python3 -m spacy download en_core_web_sm
 

@@ -13,4 +13,7 @@ WORKDIR /app
 
 RUN chmod +x ./start.sh
 
+COPY ./corpora /root/nltk_data/corpora
+COPY ./tokenizers /root/nltk_data/tokenizers
+
 ENTRYPOINT ["/bin/bash", "./start.sh"]
