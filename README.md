@@ -5,9 +5,9 @@ Este projeto implementa um sistema de detecção de ameaças cibernéticas em tw
 
 ## Live Preview
 Uma demonstracao da interface desenvolvida para este projeto pode ser encontrada em:
-   ```
-    https://tweetthreatanalysis-nbzynjakja-rj.a.run.app
-   ```
+
+[https://tweetthreatanalysis-nbzynjakja-rj.a.run.app](https://tweetthreatanalysis-nbzynjakja-rj.a.run.app)
+
 
 ## Pré-Requisitos
 - Python 3.x
