@@ -11,8 +11,15 @@ Uma demonstracao da interface desenvolvida para este projeto pode ser encontrada
 
 ## Pré-Requisitos
 - Python 3.x
-- Bibliotecas Python: numpy, pandas, scikit-learn, nltk, tensorflow
+- Bibliotecas Python: gensim, matplotlib, nltk, numpy, pandas, Pillow, plotly, scikit_learn, spacy, streamlit, streamlit_option_menu, tensorflow, tqdm, wordcloud
 - Docker (opcional)
+
+## Bibliotecas Python
+Certifique-se de ter o pip instalado e, em seguida, execute o seguinte comando para instalar as dependências:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Como Executar
 Este projeto pode ser executado de duas maneiras: via Docker ou por um script em shell.
@@ -30,9 +37,9 @@ Este projeto pode ser executado de duas maneiras: via Docker ou por um script em
    ```
    docker build -t tweet-threat-detection .
    ```
-4. Execute o container:
+4. Execute o container, adicionando a porta de execução (por exemplo, 8501):
    ```
-   docker run tweet-threat-detection
+   docker run -p 8501:8501 tweet-threat-detection
    ```
 
 ### Via Script em Shell
@@ -52,6 +59,8 @@ Este projeto pode ser executado de duas maneiras: via Docker ou por um script em
    ```
    sh run_analysis.sh
    ```
+
+**Observação:** O projeto será executado na porta 8501 por padrão.
 
 ## Contribuições
 Contribuições são bem-vindas! Para contribuir, por favor, crie um pull request com suas propostas de melhorias ou correções.
