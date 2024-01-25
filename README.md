@@ -3,12 +3,6 @@
 ## Descrição
 Este projeto implementa um sistema de detecção de ameaças cibernéticas em tweets usando técnicas avançadas de Processamento de Linguagem Natural (NLP) e análise de sentimentos. Ele visa identificar padrões relacionados a ameaças cibernéticas e avaliar a polaridade do sentimento dos tweets, auxiliando na prevenção e resposta a incidentes de segurança cibernética.
 
-## Live Preview
-Uma demonstracao da interface desenvolvida para este projeto pode ser encontrada em:
-
-[https://tweetthreatanalysis-nbzynjakja-rj.a.run.app](https://tweetthreatanalysis-nbzynjakja-rj.a.run.app)
-
-
 ## Pré-Requisitos
 - Python 3.x
 - Bibliotecas Python: gensim, matplotlib, nltk, numpy, pandas, Pillow, plotly, scikit_learn, spacy, streamlit, streamlit_option_menu, tensorflow, tqdm, wordcloud
