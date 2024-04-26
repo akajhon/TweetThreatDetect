@@ -13,7 +13,7 @@ else
 fi
 
 echo "[+] Removendo arquivo .gz..."
-rm -rf ./GoogleNews-vectors-negative300.bin.gz
+rm -rf ./models/GoogleNews-vectors-negative300.bin.gz
 
 echo "[+] Instalando Dependências..."
 pip install -r requirements.txt
