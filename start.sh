@@ -16,7 +16,7 @@ echo "[+] Removendo arquivo .gz..."
 rm -rf ./models/GoogleNews-vectors-negative300.bin.gz
 
 echo "[+] Instalando Dependências..."
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 echo "[+] Baixando o pacote punkt..."
 python3 -m nltk.downloader punkt
